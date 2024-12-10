@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-const ReactCompilerConfig = { /* ... */ };
+const ReactCompilerConfig = { };
 
 export default defineConfig(() => {
   return {
