@@ -1,7 +1,7 @@
-export default function MainPage() {
+const MainPage = () =>  {
   return (
-    <>
-      <div className="m-20">Sklep</div>
-    </>
+      <div>Sklep</div>
   );
 };
+
+export default MainPage;
