@@ -7,8 +7,6 @@ import Products from "./pages/Products.tsx";
 import About from "./pages/About.tsx";
 import Home from "./pages/Home.tsx";
 
-const prefix = "/addr-store"
-
 const router = createBrowserRouter([
   {
     path: "/addr-store",
