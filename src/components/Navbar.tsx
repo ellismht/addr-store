@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <div className="global-align text-3xl font-thin bg-victoria-300 pt-4">
-        <NavLink to="home" className="navLogo">
+        <NavLink to="" className="navLogo" end>
           Addr<span className="text-victoria-800 font-bold">-Store</span>
         </NavLink>
       </div>
