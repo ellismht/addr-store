@@ -1,25 +1,20 @@
-import { Link } from "react-router";
-
-const prefix = "/addr-store";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
     <>
-    <div className="global-align text-3xl font-thin bg-victoria-300 py-4 text-victoria-800">
-      <Link to={prefix}>
-        Addr<span className="text-victoria-800 font-bold">-Store</span>
-      </Link>
+      <div className="global-align text-3xl font-thin bg-victoria-300 pt-4 text-victoria-800">
+        <NavLink to={""} >
+          Addr<span className="text-victoria-800 font-bold">-Store</span>
+        </NavLink>
       </div>
-      <nav className="global-align flex flex-row gap-x-8 py-4 bg-victoria-300 text-victoria-950">
-        <Link to={prefix} className="text-xl tracking-wider">
-          Główna
-        </Link>
-        <Link to={`${prefix}/products`} className="text-xl tracking-wider">
+      <nav className="global-align flex justify-center gap-x-8 py-4 bg-victoria-300 text-victoria-950">
+        <NavLink to={"products"} className="text-xl tracking-wider">
           Produkty
-        </Link>
-        <Link to={`${prefix}/about`} className="text-xl tracking-wider">
+        </NavLink>
+        <NavLink to={"about"} className="text-xl tracking-wider">
           O nas
-        </Link>
+        </NavLink>
       </nav>
     </>
   );
