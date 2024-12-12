@@ -4,15 +4,15 @@ const Navbar = () => {
   return (
     <>
       <div className="global-align text-3xl font-thin bg-victoria-300 pt-4 text-victoria-800">
-        <NavLink to={""} >
+        <NavLink to="" >
           Addr<span className="text-victoria-800 font-bold">-Store</span>
         </NavLink>
       </div>
       <nav className="global-align flex justify-center gap-x-8 py-4 bg-victoria-300 text-victoria-950">
-        <NavLink to={"products"} className="text-xl tracking-wider">
+        <NavLink to="products" className="text-xl tracking-wider">
           Produkty
         </NavLink>
-        <NavLink to={"about"} className="text-xl tracking-wider">
+        <NavLink to="about" className="text-xl tracking-wider">
           O nas
         </NavLink>
       </nav>
