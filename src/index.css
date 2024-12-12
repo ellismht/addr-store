@@ -10,5 +10,9 @@
 
  
 .active {
-    @apply  text-gray-100
+    @apply pointer-events-none text-victoria-50
+  }
+
+  .navLogo{
+    @apply text-victoria-50
   }
