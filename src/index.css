@@ -1,19 +1,25 @@
+@layer tailwind-base, primereact, tailwind-utilities;
 @import 'primeicons/primeicons.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
 
-@layer components{
-    .global-align{
-        @apply mx-auto px-8
-    }
+   
+@layer tailwind-base {
+    @tailwind base;
+}
+   
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
 }
 
- 
-.active {
-    @apply pointer-events-none text-victoria-50
-  }
+.global-align{
+  @apply mx-auto px-8
+}
 
-  .navLogo{
-    @apply text-victoria-50
-  }
+.active {
+  @apply pointer-events-none text-victoria-50
+}
+
+.navLogo{
+  @apply text-victoria-50
+}
