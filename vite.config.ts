@@ -5,7 +5,6 @@ const ReactCompilerConfig = { };
 
 export default defineConfig(() => {
   return {
-    base: "/addr-store",
     plugins: [
       react({
         babel: {
@@ -15,5 +14,6 @@ export default defineConfig(() => {
         },
       }),
     ],
+    base: "/addr-store/",
   };
 });
