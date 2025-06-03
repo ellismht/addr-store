@@ -8,11 +8,11 @@
 }
 
 .active {
-  @apply pointer-events-none text-purple-500
+  @apply pointer-events-none text-purple-300
 }
 
 .navLogo{
-  @apply text-purple-500
+  @apply text-purple-300
 }
 
 @theme inline {
