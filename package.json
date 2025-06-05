@@ -19,8 +19,6 @@
     "embla-carousel-react": "^8.6.0",
     "ky": "^1.8.1",
     "lucide-react": "^0.511.0",
-    "primeicons": "^7.0.0",
-    "primereact": "^10.9.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^7.6.1",

@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="container mx-auto bg-purple-100">
+    <div className="global-align">
       <Navbar />
       <Outlet />
     </div>

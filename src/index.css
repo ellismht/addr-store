@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 .global-align{
-  @apply m-auto px-8
+  @apply container mx-auto
 }
 
 .active {
@@ -91,7 +91,7 @@
 
   --radius: 0.625rem;
 
-  --background: bg-purple-100;
+  --background: oklch(0.7 0.1 0);
 
   --foreground: oklch(0.145 0 0);
 
